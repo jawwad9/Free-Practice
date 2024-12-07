@@ -11,14 +11,13 @@ app.get("/", (req, res) => {
 
 
 
-app.get("/home", (req, res) => {
-    res.send("Hello jawwad!");
-})
-app.get("/home", (req, res) => {
-    res.send("Hello jawwad!");
-})
-app.get("/home", (req, res) => {
-    res.send("Hello jawwad!");
+app.get("/", (req, res) => {
+    res.send("Hello home!");
+});
+
+
+app.get("/about", (req, res) => {
+    res.send("Hello about!");
 })
 
 app.listen(port, () => {
