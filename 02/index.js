@@ -21,9 +21,16 @@ app.get("/about", (req, res) => {
 })
 
 
-app.get("/services", (req, res) => {
-    res.send("Hello services!");
+
+app.get("/about", (req, res) => {
+    res.send("Hello about!");
 })
+
+
+app.get("/about", (req, res) => {
+    res.send("Hello about!");
+})
+
 
 
 app.listen(port, () => {
