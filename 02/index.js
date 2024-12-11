@@ -27,10 +27,6 @@ app.get("/about", (req, res) => {
 })
 
 
-app.get("/about", (req, res) => {
-    res.send("Hello about!");
-})
-
 
 
 app.listen(port, () => {
