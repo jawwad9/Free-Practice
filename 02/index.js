@@ -20,9 +20,11 @@ app.get("/about", (req, res) => {
     res.send("Hello about!");
 })
 
+app.get("/contact", (req, res) => {
+    res.send("Hello Contact!");
+})
 
-
-app.get("/about", (req, res) => {
+app.get("/", (req, res) => {
     res.send("Hello about!");
 })
 
