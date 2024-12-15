@@ -10,21 +10,15 @@ app.get("/", (req, res) => {
 })
 
 
-
-app.get("/", (req, res) => {
-    res.send("Hello home!");
-});
-
-
-app.get("/about", (req, res) => {
-    res.send("Hello about!");
+app.get("/service", (req, res) => {
+    res.send("Hello service!");
 })
 
 app.get("/contact", (req, res) => {
     res.send("Hello Contact!");
 })
 
-app.get("/", (req, res) => {
+app.get("/about", (req, res) => {
     res.send("Hello about!");
 })
 
