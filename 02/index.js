@@ -9,6 +9,13 @@ app.get("/", (req, res) => {
     res.send("Hello World!");
 })
 
+app.get("/profile", (req, res) => {
+    res.send("Hello profile!");
+})
+
+app.get("/home", (req, res) => {
+    res.send("Hello home!");
+})
 
 app.get("/service", (req, res) => {
     res.send("Hello service!");
