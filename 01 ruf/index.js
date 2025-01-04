@@ -22,6 +22,14 @@ app.get("/contact", (req, res) => {
     res.send("Hello contact!");
 })
 
+app.get("/contact", (req, res) => {
+    res.send("Hello contact!");
+})
+
+app.get("/contact", (req, res) => {
+    res.send("Hello contact!");
+})
+
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
