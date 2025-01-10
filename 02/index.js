@@ -17,9 +17,6 @@ app.get("/home", (req, res) => {
     res.send("Hello home!");
 })
 
-app.get("/home", (req, res) => {
-    res.send("Hello home!");
-})
 app.get("/service", (req, res) => {
     res.send("Hello service!");
 })
