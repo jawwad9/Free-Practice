@@ -21,6 +21,11 @@ app.get("/service", (req, res) => {
     res.send("Hello service!");
 })
 
+
+app.get("/service", (req, res) => {
+    res.send("Hello service!");
+})
+
 app.get("/contact", (req, res) => {
     res.send("Hello Contact!");
 })
